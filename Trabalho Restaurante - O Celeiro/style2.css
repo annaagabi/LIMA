@@ -1,0 +1,251 @@
+*{
+    background-color: #f2f2f2;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    background-color: #262223;
+    color: white
+}
+#topo{
+    display: flex; 
+    padding: 50px;
+    background-color: #262223;
+    margin-left: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; /* espassamento interno */
+    overflow: hidden;  /* Overflow: para delimitar o tamanho da tela */ /*hidden: "esconde" o texto que passa de um tamanho da tela e o reduz, colocando uma barra de rolagem*/
+    position: sticky;  /* posição fixada */
+    position: -webkit-sticky; /*  para funcionar no "Safari" - navegador da apple  */
+    top: 0;  /* faz com que o ul fique grudado na div */
+    background-color: #A6771F;
+    /* justify-items: space-between; */
+}
+
+li{
+    float: left; /* para que o menu fique um ao lado do outro */
+    
+}
+
+li a{
+    display: block; /* vai pegar todo o espçamento da onde ele pertence */
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #A6771F;
+}
+
+li a:hover{
+    background-color: #333;
+}
+
+.active{
+    background-color: #73541A;
+}
+.login{
+    float: right;
+}
+.login li a{
+    text-align: right;
+    color: white ;
+}
+
+h3{
+    
+    background-color: #A6771F;
+    text-indent: 0;
+    font-size: 28px;
+}
+
+#topo a{
+    text-decoration: none;
+    display: flex;
+    color:black;
+    text-align: center;
+    background-color:  #262223;
+}
+.conteudo{
+    margin: 25px;
+    /* display: inline; */
+    width: 90%;
+}
+.conteudo p{
+    margin: 25px;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 28px;
+}
+.reservas{
+    border:  #73541A solid 5px;
+    background-color: #262223;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    line-height: 40px;
+}
+.reservas h2{
+    background-color: #262223;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.pessoas{
+    background-color: #262223;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.pessoas{
+    background-color: #262223;
+    color: white;
+    text-align: center;
+}
+label{
+    background-color: #262223;
+    color: white;
+    text-align: center;
+}
+select{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: arial, sans-serif;
+    outline: 0;
+    background-color: #D9D9D9;
+    color: black;
+    border: 1px solid #d0cfcfdc;
+    padding: 4px;
+    border-radius: 0px;
+    width: 40%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+.select{
+    color: #969595 ;
+}
+option{
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.data, .hora{
+    background-color: #262223;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+}
+
+input{
+    width: 40%;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.botao{
+    background-color: #262223;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+button{
+    background-color: #F2A71B;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+    height: 60px;
+}
+hr{
+    border: 10px
+}
+.rodape1{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    background-color: #73541A;
+    margin: 0;
+    padding: 15px;
+    justify-content: center;
+}
+.rodape1 a{
+    color: black;
+    text-align: center  ;
+    text-decoration: none;  
+    background-color: #73541A;
+}
+.rodape1 p{
+    background-color: #73541A;
+}
+.bibi-whatsapp{
+    background-color: #73541A;
+}
+.bibi-instagram{
+    background-color: #73541A;
+}
+.rodape2{
+    text-align:left;
+    font-size: 20px;
+    color: black;
+    background-color: #A6771F;
+    margin: 0;
+    padding: 30px;
+    display: block;
+    float: left; 
+    width: 100%;
+    height: 300px;
+    text-indent: 0;
+    column-count: 2;
+    line-height: 40px;
+    
+}
+.rodape2 p, i{
+    background-color: #A6771F;
+    text-align:left;
+    margin: 0;
+}
+.rodape2 h3{
+    text-indent: 50px;
+}
+.rodapes{
+    position: absolute;
+    bottom: 1;
+    width: 100%;  
+} 
+
+.tudo{
+    position: relative;
+    min-height: 3072px; 
+} 
