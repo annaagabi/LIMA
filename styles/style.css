@@ -1,0 +1,186 @@
+*{
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+.icone{
+    border-radius: 100%;
+}
+body{
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    background-color: #262223;
+    color: white
+}
+#topo{
+    display: flex;
+    padding: 50px;
+    background-color: #262223;
+    margin-left: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; /* espassamento interno */
+    overflow: hidden;  /* Overflow: para delimitar o tamanho da tela */ /*hidden: "esconde" o texto que passa de um tamanho da tela e o reduz, colocando uma barra de rolagem*/
+    position: sticky;  /* posição fixada */
+    position: -webkit-sticky; /*  para funcionar no "Safari" - navegador da apple  */
+    top: 0;  /* faz com que o ul fique grudado na div */
+    background-color: #A6771F;
+    /* justify-content: space-between;
+    */
+    justify-items: space-between;
+}
+
+li{
+    float: left; /* para que o menu fique um ao lado do outro */
+    
+}
+
+li a{
+    display: block; /* vai pegar todo o espçamento da onde ele pertence */
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #A6771F;
+}
+
+li a:hover{
+    background-color: #333;
+}
+
+.active{
+    background-color: #73541A;
+}
+.login{
+    text-align: right;
+    color: white !important;
+    float: right;
+}
+.login li a{
+    text-align: right;
+    color: white !important;
+}
+
+.img-banner{
+    /* height: 100vh;
+    width: 100vw;
+    background: url(bg-img.jpg);
+    background-size: cover; */
+    height: auto;
+    width: 100%;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    position: relative;
+    margin-bottom: 50px;
+} 
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 28px;
+}
+h3{
+    
+    background-color: #A6771F;
+    text-indent: 0;
+    font-size: 28px;
+}
+
+#topo a{
+    text-decoration: none;
+    display: flex;
+    color:black;
+    text-align: center;
+    /* padding: 50px; */
+    background-color:  #262223;
+}
+.conteudo{
+    margin: 25px;
+    display: inline;
+    width: 90%;
+}
+.conteudo p{
+    margin: 25px;
+}
+hr{
+    border: 10px
+}
+.rodape1{
+    text-align: center ;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    background-color: #73541A;
+    margin: 0;
+    padding: 15px;
+    bottom: 1;
+    /* position: absolute; */
+    
+}
+.rodape1 a{
+    color: black;
+    text-align: center  ;
+    text-decoration: none;  
+    background-color: #73541A;
+}
+.rodape1 p{
+    background-color: #73541A;
+}
+.bibi-whatsapp{
+    background-color: #73541A;
+}
+.bibi-instagram{
+    background-color: #73541A;
+}
+.rodape2{
+    text-align:left;
+    font-size: 20px;
+    color: black;
+    background-color: #A6771F;
+    margin: 0;
+    padding: 30px;
+    display: block;
+    float: left; 
+    width: 100%;
+    height: 300px;
+    text-indent: 0;
+    column-count: 2;
+    line-height: 40px;
+    
+}
+.rodape2 p, i{
+    background-color: #A6771F;
+    text-align:left;
+    margin: 0;
+}
+.rodape2 h3{
+    text-indent: 50px;
+}
+.rodapes{
+    position: absolute;
+    bottom: 1;
+    width: 100%;  
+} 
+
+.tudo{
+    position: relative;
+    min-height: 3072px; 
+} 
