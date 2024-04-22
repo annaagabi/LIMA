@@ -7,4 +7,4 @@ Projeto desenvolvido para o Senai Suíço-Brasileira "Paulo Ernesto Tolle" com o
 
 ### LINKS
 
-[![Figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/file/kQlCfi0YQM6pxni6djQJfp/Site-LIMA---Restaurante?type=design&node-id=304%3A6&mode=design&t=gX7Qb6gYf7OqskJz-1) [![Vercel](https://skillicons.dev/icons?i=vercel)](https://api-fipe-anna.vercel.app/​)
+[![Figma](https://skillicons.dev/icons?i=figma)](https://www.figma.com/file/kQlCfi0YQM6pxni6djQJfp/Site-LIMA---Restaurante?type=design&node-id=304%3A6&mode=design&t=gX7Qb6gYf7OqskJz-1) [![Vercel](https://skillicons.dev/icons?i=vercel)](https://o-celeiro-da-carne.vercel.app​)
